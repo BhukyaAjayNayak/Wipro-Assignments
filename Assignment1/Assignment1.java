@@ -18,7 +18,7 @@ public class Assignment1 {
             int choice = scanner.nextInt();
 
             switch (choice) {
-                case 1: // Print Table
+                case 1: 
                     System.out.print("Enter the number: ");
                     int num = scanner.nextInt();
                     for (int i = 1; i <= 10; i++) {
@@ -26,7 +26,7 @@ public class Assignment1 {
                     }
                     break;
 
-                case 2: // Factorial
+                case 2:
                     System.out.print("Enter a number: ");
                     int factNum = scanner.nextInt();
                     long factorial = 1;
@@ -36,7 +36,7 @@ public class Assignment1 {
                     System.out.println("Factorial of " + factNum + " is " + factorial);
                     break;
 
-                case 3: // Prime Check
+                case 3: 
                     System.out.print("Enter a number: ");
                     int primeNum = scanner.nextInt();
                     boolean isPrime = true;
@@ -59,7 +59,7 @@ public class Assignment1 {
                     }
                     break;
 
-                case 4: // Fibonacci
+                case 4: 
                     System.out.print("Enter number of terms: ");
                     int terms = scanner.nextInt();
                     int a = 0, b = 1, next;
@@ -73,7 +73,7 @@ public class Assignment1 {
                     System.out.println();
                     break;
 
-                case 5: // Exit
+                case 5: 
                     System.out.println("Exiting program. Goodbye!");
                     scanner.close();
                     return;
